@@ -50,19 +50,11 @@ var LoginModal = document.getElementById('LoginModal');
 var LoginBtn = document.getElementById("LoginBtn");
 var span = document.getElementsByClassName("close")[0];
 
-CreateAccBtn.onclick = function() {
-    CreateAccountModal.style.display = "block";
-}
-LoginBtn.onclick = function() {
-    LoginModal.style.display = "block";
-}
+CreateAccBtn.onclick = function() { CreateAccountModal.style.display = "block"; }
+LoginBtn.onclick = function() { LoginModal.style.display = "block"; }
 
-span.onclick = function() {
-    CreateAccountModal.style.display = "none";
-}
-span.onclick = function() {
-    LoginModal.style.display = "none";
-}
+span.onclick = function() { CreateAccountModal.style.display = "none"; }
+span.onclick = function() { LoginModal.style.display = "none"; }
 
 window.onclick = function(event) {
     if (event.target == CreateAccountModal || event.target == LoginModal) {
