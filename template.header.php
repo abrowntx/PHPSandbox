@@ -2,6 +2,7 @@
 <head>
     <title>PHP Sandbox</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -22,7 +23,7 @@
                 <input type="text" placeholder="Username">
                 <input type="text" placeholder="Email">
                 <input type="password" placeholder="Password"><br>
-                <button>Submit</button>
+                <button>Create Account</button>
             </form>
         </div>
   </div>
@@ -36,7 +37,7 @@
             <form>
                 <input type="text" placeholder="Username">
                 <input type="password" placeholder="Password"><br>
-                <button>Submit</button>
+                <button>Login</button>
             </form>
         </div>
   </div>
