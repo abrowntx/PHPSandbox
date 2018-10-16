@@ -8,7 +8,9 @@
 <body>
 
 <!-- Trigger/Open The Modal -->
-<a id="CreateAccBtn" href="#">Create Account</a> | <a id="LoginBtn" href="#">Login</a>
+<div class="header-login">
+    <a id="CreateAccBtn" href="#">Create Account</a> | <a id="LoginBtn" href="#">Login</a>
+</div>
 
 <!-- The Modal -->
 <div id="CreateAccountModal" class="modal">
@@ -16,14 +18,16 @@
     <span class="close">&times;</span>
         <div class="formCont">
             <h2>Create a User Account</h2>
-            <form>
-                <input type="text" placeholder="First Name">
-                <input type="text" placeholder="Last Name">
-                <input type="text" placeholder="Institution">
-                <input type="text" placeholder="Username">
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password"><br>
-                <button>Create Account</button>
+            <form class="form-signup" action="inc/inc.signup.php" method="POST">
+                <input type="text" name="fname" placeholder="First Name">
+                <input type="text" name="lname" placeholder="Last Name">
+                <input type="text" name="inst" placeholder="Institution">
+                <input type="text" name="uid" placeholder="Username">
+                <input type="text" name="email" placeholder="Email">
+                <input type="password" name="pass" placeholder="Password">
+                <input type="password" name="pass2" placeholder="Re-Enter Password">
+                <p style="text-align:center;">error</p>
+                <button type="submit" name="SignupSubmit">Create Account</button>
             </form>
         </div>
   </div>
@@ -53,8 +57,7 @@ var span = document.getElementsByClassName("close")[0];
 CreateAccBtn.onclick = function() { CreateAccountModal.style.display = "block"; }
 LoginBtn.onclick = function() { LoginModal.style.display = "block"; }
 
-span.onclick = function() { CreateAccountModal.style.display = "none"; }
-span.onclick = function() { LoginModal.style.display = "none"; }
+span.onclick = function() { CreateAccountModal.style.display = "none"; LoginModal.style.display = "none"; }
 
 window.onclick = function(event) {
     if (event.target == CreateAccountModal || event.target == LoginModal) {
