@@ -1,0 +1,18 @@
+body {
+    background-color: #A5DA91;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: 1fr 100px 100px 100px 100px 100px 100px 100px 100px 100px 1fr;
+    grid-template-rows: 150px 150px 150px;
+}
+
+.letter {
+    font-family: 'Nova Mono', monospace;
+    font-size: 155px;
+    text-align: center;
+    color: #19063A;
+}

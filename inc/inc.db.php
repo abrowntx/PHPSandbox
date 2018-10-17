@@ -1,12 +1,12 @@
 <?php
-    /*$host = "fdb23.runhosting.com";
-    $username = "2847522_sandbox";
-    $dbpass = "21pascar3345";
-    $dbname = "2847522_sandbox";*/
-    $host = "localhost";
+    $host = "tx12.fcomet.com";
+    $username = "rigorous";
+    $dbpass = "wSgoF5r961";
+    $dbname = "rigorous_Sandbox";
+    /*$host = "localhost";
     $username = "root";
     $dbpass = "";
-    $dbname = "Sandbox";
+    $dbname = "Sandbox";*/
 
 $conn = mysqli_connect($host, $username, $dbpass, $dbname);
 
