@@ -1,4 +1,4 @@
-body { margin: 0; font-family: 'Raleway', sans-serif; background-color: #242424; color: #dbdbd7; }
+body { margin: 0; font-family: 'Raleway', sans-serif; background-color: #242424; color: #dbdbd7; background-image: url(img/crowd.svg); background-size: cover; }
 a,a:hover,a:visited { color: #dbdbd7; }
 
 h2 { font-family: 'Righteous', cursive; }
@@ -50,21 +50,21 @@ h2 { font-family: 'Righteous', cursive; }
     width: 80px;
     position: relative;
     left: 290px;
-    top: -34px;
+    top: 0px;
     opacity: .85;
     transform: rotate(3deg);
 }
 .logo-header_sm {
     position: relative;
     left: 190px;
-    top:-275px;
+    top:-240px;
     font-size: 50px;
     transform: rotate(2deg);
 }
 .logo-header2_sm {
     position: relative;
     left: 45px;
-    top: -160px;
+    top: -128px;
     font-size: 60px;
     transform: rotate(2deg);
 }
@@ -73,6 +73,50 @@ h2 { font-family: 'Righteous', cursive; }
 }
 .SmallLogoLink a {
     text-decoration: none;
+}
+.SmallLogoLink {
+    position: relative;
+    left: 0px;
+    padding-left:0px;
+    width:350px;
+}
+/* ---- SMALLEST LOGO ---- */
+.logo_smt {
+    width: 350px;
+    height: 70px;
+}
+.logo-img_smt {
+    width: 60px;
+    position: relative;
+    left: 250px;
+    top: 0px;
+    opacity: .85;
+    transform: rotate(3deg);
+}
+.logo-header_smt {
+    position: relative;
+    left: 165px;
+    top:-190px;
+    font-size: 40px;
+    transform: rotate(2deg);
+}
+.logo-header2_smt {
+    position: relative;
+    left: 45px;
+    top: -95px;
+    font-size: 50px;
+    transform: rotate(2deg);
+}
+.logo-span1_smt {
+    color: #91bbd6;
+}
+.SmalltLogoLink a {
+    text-decoration: none;
+}
+.SmalltLogoLink {
+    position: relative;
+    left: 0px;
+    padding-left:0px;
 }
 
 
@@ -85,6 +129,9 @@ h2 { font-family: 'Righteous', cursive; }
     text-align: right;
     font-size: 20px;
     padding: 5px 20px 5px 5px;
+    position: relative;
+    z-index: -2;
+    top: -90px;
     font-family: 'Righteous', cursive;
 }
 .header-login a {
@@ -137,6 +184,7 @@ footer div {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .formCont[h2] {
     display: block;
@@ -209,14 +257,14 @@ button:focus {
 }
 /* The Close Button */
 .close {
-    color: #aaaaaa;
+    color: #9bc8da;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 .close:hover,
 .close:focus {
-    color: rgb(155, 152, 152);
+    color: #bbd5df;
     text-decoration: none;
     cursor: pointer;
 }
@@ -233,11 +281,11 @@ button:focus {
     background-color: rgba(0,0,0,0.4);
 }
 .menu-content {
-    background-color: #2e2e2e;
+    background-color: #2b2b2b;
     padding-left: 20px;
     padding-right: 10px;
     border: 1px solid #0f0f0f;
-    width: 300px;
+    width: 340px;
     color:#dbdbd7;
     height: 100vh;
 }
