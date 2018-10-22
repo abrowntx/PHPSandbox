@@ -1,19 +1,16 @@
 <?php
-    require_once('inc/inc.db.php');
+//Call DBHandler
+    //require_once('inc/inc.db.php');
 
+//Call HEADER template file
     require_once('template.header.php');
-?>
 
-<div class="logo">
-    <img class="logo-img" src="img/drill.png">
-    <h2 class=logo-header2><span class="logo-span1">brain</span></h2>
-    <h2 class="logo-header">driller</h2>
-</div>
+//Call SMALL LOGO template file
+    require_once('template.smalllogo.php');
+    
+//Call CTE TRAINING template file
+    require_once('template.CTE.php');
 
-<p style="text-align:center"><a href="test_con1.html">test condition 1</a></p>
-<p style="text-align:center"><a href="shakes.html">Shakespeare</a></p>
-
-
-<?php
+//Call FOOTER template file
     require_once('template.footer.php');
 ?>

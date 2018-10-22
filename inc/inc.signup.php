@@ -43,7 +43,7 @@ if (isset($_POST['SignupSubmit'])){
                 exit();
             } else {
                 $sql = "INSERT INTO users (users_uid, users_email, users_fName, users_lName, users_inst, users_pass) VALUES (?, ?, ?, ?, ?, ?)";
-
+                
             }
         }
 

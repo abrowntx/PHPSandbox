@@ -3,74 +3,41 @@
     <head>
         <meta charset="utf-8">
         <title>BrainDriller</title>
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="cte_styles.css">
     </head>
     <body>
-        <div class="div1">
-            <span ID="Success">count1</span>
-            <span>/</span>
-            <span ID="Total">count2</span>
-            <span>  - - - -  </span>
-            <span ID="Start">timer</span>
-            <span> - </span>
-            <span ID="react">timer</span>
-            <span>  - - - -  </span>
-            <span ID="Result">result</span>
-            <table class="table1">
-                <tr class="rowtop">
-                    <td>
-                        <img src="img/blank.png" id="TR1"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="TR2"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="TR3"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="TR4"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="TR5"/>
-                    </td>
-                </tr>
-                <tr class="rowmiddle">
-                    <td>
-                        
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                        <img src="img/start.png" id="Plus" onclick="Start()"/>
-                    </td>
-                    <td>
-                        
-                    </td>
-                    <td>
-                    
-                    </td>
-                </tr>
-                <tr class="rowbottom">
-                    <td>
-                        <img src="img/blank.png" id="BR1"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="BR2"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="BR3"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="BR4"/>
-                    </td>
-                    <td>
-                        <img src="img/blank.png" id="BR5"/>
-                    </td>
-                </tr>
-            </table>
+        <div class="container">
+            <div class="TopSpacer">
+                <span ID="Success">count1</span>
+                <span>/</span>
+                <span ID="Total">count2</span>
+                <span>  - - - -  </span>
+                <span ID="Start">timer</span>
+                <span> - </span>
+                <span ID="react">timer</span>
+                <span>  - - - -  </span>
+                <span ID="Result">result</span>
+            </div>
+            <div class="TopRow">
+                <div class="grid1"><img src="img/blank.png" alt="[o]" id="TR1"></div>
+                <div class="grid2"><img src="img/blank.png" alt="[o]" id="TR2"></div>
+                <div class="grid3"><img src="img/blank.png" alt="[o]" id="TR3"></div>
+                <div class="grid4"><img src="img/blank.png" alt="[o]" id="TR4"></div>
+                <div class="grid5"><img src="img/blank.png" alt="[o]" id="TR5"></div>
+            </div>
+            <div class="MiddleRow">
+                <div class="grid6"><img src="img/start.png" alt="[o]" id="Plus" onclick="Start()"></div>
+            </div>
+            <div class="BottomRow">
+                <div class="grid7"><img src="img/blank.png" alt="[o]" id="BR1"></div>
+                <div class="grid8"><img src="img/blank.png" alt="[o]" id="BR2"></div>
+                <div class="grid9"><img src="img/blank.png" alt="[o]" id="BR3"></div>
+                <div class="grid10"><img src="img/blank.png" alt="[o]" id="BR4"></div>
+                <div class="grid11"><img src="img/blank.png" alt="[o]" id="BR5"></div>
+            </div>
+            <div class="BottomSpacer">  </div>
         </div>
-        <script src="App.js"></script>    
+
+        <script src="App_CTE_Cond1.js"></script>    
     </body>
 </html>

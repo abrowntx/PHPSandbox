@@ -25,6 +25,7 @@ function KillInterval() {
 
 
 function Start(){
+    document.getElementById("Plus").src = "img/blank.png"
     setTimeout(function(){
         document.getElementById("Plus").src = "img/3.png"
         setTimeout(function(){
@@ -34,10 +35,10 @@ function Start(){
                     //initial interval setting
                     var inter = setInterval(function(){ RowLoad(); }, RoundLength);
                     //initial round load
-                    setTimeout(function(){ RowLoad(); }, CorrectTime)
+                    setTimeout(function(){ RowLoad(); }, FadeTime)
             }, 1000);
         }, 1000);
-    }, 1000);
+    }, 250);
 };
 
 //Left/Right Button Presses
